@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Метало-комплектуючі</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link href="/photos/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <style>
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5%;
+            row-gap: 50px;
+            justify-content: space-around;
+        }
+
+        section a {
+            color: #F2F2F2;
+            background-color: #25282e;
+            width: 60%;
+            text-decoration: none;
+            padding: 2% 3%;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        section a div {
+            display: flex;
+            width: 100%;
+            gap: 10%;
+            justify-content: center;
+            align-items: center;
+        }
+
+        section a div img {
+            width: 65%;
+        }
+
+        section a div p {
+            width: 130%;
+        }
+
+        .main-footer {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            left: 0;
+        }
+
+        section ul {
+            flex-direction: column;
+            display: flex;
+            gap: 10px;
+        }
+
+        section ul li {
+            font-size: 18px;
+        }
+
+        .main-footer{
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        right: 0;
+    }
+
+        @media screen and (max-width: 430px) {
+            section a div {
+                flex-direction: column;
+                display: flex;
+                align-items: flex-start;
+                gap: 5px;
+            }
+
+            section a div img {
+                width: 100%;
+            }
+
+            section a div ul {
+                position: relative;
+                left: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="burger-back"></div>
+    <span id="times">&times;</span>
+    <div class="wrapper">
+        <header>
+            <nav>
+                <a style="text-decoration: none;" href="../../index.html">
+                    <h1 class="title">SEALMASTER</h1>
+                </a>
+                <ul id="header-menu">
+                    <a href="../../index.html">Головна</a>
+                    <a href="../contacts.html">Контакти</a>
+                    <a href="../delivery.html">Доставка</a>
+                    <span id="goods-header">Товари<div id="triangle"></div>
+                    </span>
+                    <span class="drop-menu-wrap" id="drop-menu-wrap">
+                        <span id="drop-menu">
+                            <a href="#">Гідравліка</a>
+                            <a href="./pneumatic.html">Пневматичні ущільнення</a>
+                            <a href="./rings.html">Кільця ущільнюючі</a>
+                            <a href="./mandjets.html">Манжети армовані (сальники) </a>
+                            <a href="./remcoplects.html">Ремкомплекти </a>
+                            <a href="./metal-components.html">Метало-комплектуючі </a>
+                            <a href="./non-standard.html">Нестандартні ущільнення </a>
+                            <a href="./rotation.html">Ротаційні ущільнення </a>
+                            <a href="./katalogs.html">Каталоги </a>
+                        </span>
+                </ul>
+                <div id="menu-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+            </nav>
+            <p>Якісні ущільнення для гідравлічних і пневматичних циліндрів та систем
+            </p>
+        </header>
+        <hr>
+
+        <section>
+
+            <a href="">
+                <h1>Метало-комплектуючі</h1>
+                <div>
+                    <img src="../../photos/метало-комплектуючі.jpeg" alt="">
+                    <ul>
+                        <li>Штоки</li>
+                        <li>Труби</li>
+                        <li>Букси</li>
+                        <li>Поршні</li>
+                        <li>Втулки</li>
+                        <li>Провушини</li>
+                        <li>Підшипники ШС</li>
+                        <li>Стопорні кільця</li>
+                    </ul>
+                </div>
+            </a>
+        </section>
+
+
+    </div>
+
+    <div class="main-footer">
+        <p> +38 097 412 9300</p>
+        <p> +38 098 228 8269</p>
+        <a style="color: #F2F2F2; text-decoration: none;"
+            href="mailto:lviv@sealmaster.com.ua">lviv@sealmaster.com.ua</a>
+        <p>Городоцька 286Б, Львів, 79040</p>
+    </div>
+    <script src="../../script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+@media screen and (min-width: 1000px) {
+    img:hover {
+        width: 550px;
+        position: absolute;
+        z-index: 10;
+    }
+}
